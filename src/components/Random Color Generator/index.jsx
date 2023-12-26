@@ -19,7 +19,7 @@ export default function RandomColorGenerator() {
 
 
     for(let i = 0 ; i<6 ; i++){
-        hexColor += hex[randomSelection(hex.length)]
+        hexColor += hex[randomSelection(hex.length)] 
     }
     setColor(hexColor)
   }
